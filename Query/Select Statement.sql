@@ -29,3 +29,24 @@ select
     unit_price,  
     unit_price*1.1 as 'new price' 
 from products;
+
+-- Tutorial 1.3 using where 
+use store; -- as a deafult database
+select * from customers where points > 3000;
+select * from customers where state = 'va';
+select * from customers where state != 'il';
+
+-- exercise 
+-- Get the order plased this year
+select * from orders where order_date >= '2019-01-01';
+
+-- section 1.4 using and, or, not
+select * from customers 
+where birth_date > '1990-01-01' and points > 1000; 
+select * from customers 
+where birth_date > '1990-01-01' or points > 1000;  
+select * from customers 
+where birth_date > '1990-01-01' or (points > 1000 and state = 'va');
+select * from customers 
+where not(birth_date > '1990-01-01' or points > 1000 );
+
