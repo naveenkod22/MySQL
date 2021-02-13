@@ -1,4 +1,5 @@
--- section 1.6 between operator
+-- 1.6 between operator
+
 use store;
 select * from customers where points between 1000 and 3000;
 -- exercise 

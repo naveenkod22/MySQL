@@ -1,4 +1,5 @@
--- section 1.4 using and, or, not
+-- 1.4 using and, or, not
+
 use store;
 select * from customers 
 where birth_date > '1990-01-01' and points > 1000; 

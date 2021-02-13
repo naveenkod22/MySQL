@@ -1,4 +1,5 @@
--- Tutorial 1.2
+-- 1.2 select clause
+
 use store;
 select customer_id, first_name from customers order by first_name;
 select last_name, first_name, points from customers; 

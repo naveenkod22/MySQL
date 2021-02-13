@@ -1,7 +1,9 @@
--- Tutorial 1.3 using where 
+-- 1.3 where clause
+
 use store; -- as a deafult database
 select * from customers where points > 3000;
-select * from customers where state = 'va';
+select * from customer
+s where state = 'va';
 select * from customers where state != 'il';
 
 -- exercise 
