@@ -1,0 +1,5 @@
+-- 10.1 Transactions
+-- A Group of SQL statements that represents a single unit of work
+-- all statements should be completed; else transacton is failed
+-- if any statement fails in transactiins; all statements are undone (rolled back)
+-- ACID : Atomicity; Consistency; isolation; durability
