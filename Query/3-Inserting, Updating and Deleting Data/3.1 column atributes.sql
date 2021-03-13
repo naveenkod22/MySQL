@@ -1,5 +1,4 @@
 -- 3.1 column atributes
-
 -- pk : primery key
 -- nn : not null
 -- ai : auto increment
